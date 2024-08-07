@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylez.css" rel="stylesheet">
+    <title>Dream Stations</title>
+</head>
+
+<body>
+    <nav>
+        <h2>Main Nav</h2>
+        <ul>
+            <li><a href="#home">Dream Stations</a></li>
+            <li><a href="#newPlay">New<br>Playlists</a></li>
+            <li><a href="#websiteMade">Dreams<br>Playlists</a></li>
+            <li>
+                <label class="switch">
+                    <input type="checkbox" id="themeSwitch">
+                    <span class="slider round"></span>
+                </label>
+            </li>
+            <li><a href="user"><img src="media/user_icon1.png" alt="user icon"></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>
+            Punk Rock Anthems
+        </h1>
+        <p>
+            Welcome to Dream Stations Punk Rock Anthems station! Here you will find a list of new trending bands along
+            with a curated playlist of all the leaders in punk.
+        </p>
+    </header>
+    <main>
+        <!--Start of playlists-->
+        <section id="newPlay">
+            <h2>New Playlists</h2>
+            <div class="scroll">
+                <section>
+                    <h3>Best of 2024</h3>
+                    <p>The music that got you through the day.</p>
+                    <img src="media/sum41-1.jpg" alt="Sum41 album cover">
+                </section>
+                <section>
+                    <h3>Falling in Reverse</h3>
+                    <p>The gray line of being punk or hardcore.</p>
+                    <img src="media/fallinginreverse-1.jpg" alt="Falling in Reverse album cover">
+                </section>
+                <section>
+                    <h3>Quiet Storm</h3>
+                    <p>Underrated album you probably missed from Bad Religion.</p>
+                    <img src="media/bad_religion-1.jpg" alt="Bad religion album cover">
+                </section>
+                <section>
+                    <h3>Dead Milkmen</h3>
+                    <p>The pioneers of punk rock.</p>
+                    <img src="media/deadmilkmen-1.jpg" alt="Dead milkmen album cover">
+                </section>
+            </div>
+            <button class="more">See more</button>
+        </section>
+        <section id="websiteMade">
+            <h2>Dream Stations Playlists</h2>
+            <div class="scroll">
+                <section>
+                    <h3>Punk Rock legends</h3>
+                    <p>Light up the afternoon with these classic artists.</p>
+                    <img src="media/greenday-1.jpg" alt="Green day album cover">
+                </section>
+                <section>
+                    <h3>Blink-182</h3>
+                    <p>Start off with some classic pop punk.</p>
+                    <img src="media/blink182-1.jpg" alt="Blink182 album cover">
+                </section>
+                <section>
+                    <h3>NOFX</h3>
+                    <p>Let out your inner rebel with some NOFX.</p>
+                    <img src="media/nofx-1.jpg" alt="NOFX album cover">
+                </section>
+                <section>
+                    <h3>The Offspring</h3>
+                    <p>Really relive the 90's and 2000's with The Offspring</p>
+                    <img src="media/offspring-1.jpg" alt="The Offspring album cover">
+                </section>
+            </div>
+            <button class="more">See more</button>
+        </section>
+        <!--Account signup form (cost calculator)-->
+        <div id="signupForm">
+            <h2>Sign up Form</h2>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Your full name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email address"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"
+                placeholder="Must be at least 8 characters long and include at least one number, one lowercase and one uppercase letter"><br>
+            <div id="accountTypes">
+                <div class="account" data-price="0">
+                    <h2>Free (with ads)</h2>
+                    <button>Select</button>
+                </div>
+                <div class="account" data-price="10">
+                    <h2>Premium (No ads and up to 2 users)</h2>
+                    <button>Select</button>
+                </div>
+                <div class="account" data-price="20">
+                    <h2>Premium Platinum (up to 4 users)</h2>
+                    <button>Select</button>
+                </div>
+            </div>
+            <div id="total">
+                <h2>Total: $<span id="totalPrice">0</span></h2>
+                <button id="checkout">Sign up</button>
+            </div>
+        </div>
+        <!--Contact form-->
+        <form id="contactForm">
+            <h2>Contact Form</h2>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullNameTwo" name="fullName"><br>
+            <span id="fullNameError" class="error"></span><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <span id="phoneError" class="error"></span><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="emailTwo" name="email"><br>
+            <span id="emailError" class="error"></span><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br>
+            <span id="commentsError" class="error"></span><br>
+            <label>Contact Preference:</label><br>
+            <input type="radio" id="contactPhone" name="contactPreference" value="phone">
+            <label for="contactPhone">Phone</label><br>
+            <input type="radio" id="contactEmail" name="contactPreference" value="email">
+            <label for="contactEmail">Email</label><br>
+            <span id="contactPreferenceError" class="error"></span><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        <div id="thankYouMessage"></div>
+        <footer>
+            <p>Copyright Dream Stations 2024 </p>
+        </footer>
+    </main>
+    <!--JavaScript source and back to the top button-->
+    <script defer src="app.js"></script>
+    <a href="#" id="back-to-top">Back to Top</a>
+</body>
+
+</html>

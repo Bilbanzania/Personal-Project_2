@@ -1,0 +1,462 @@
+/* General CSS */
+html {
+    background-color: #004d00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+    padding-left: 10px;
+    margin: auto;
+    max-width: 80%;
+}
+
+header {
+    color: #ffffff;
+    padding: 20px 10px;
+    margin: auto;
+    background-image: linear-gradient(to right, #008000, #004d00);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #dddddd;
+}
+
+
+p {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2, h3 {
+    font-size: 1.5em;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    background-color: #008000;
+    padding: 20px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Light dark mode switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #004d00;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #ffffff;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #008000;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+body[data-theme='light'] {
+    background-color: #ffffff !important; 
+    color: #000000 !important; 
+}
+
+body[data-theme='dark'] {
+    background-color: #004d00 !important;
+    color: #ffffff !important;
+}
+
+/* Navigation */
+a[href="#home"] {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+nav {
+    background-color: #008000;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a:hover {
+    color: #cccccc;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav h2 {
+    display: none;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #008000;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* Playlist Scroll */
+#newPlay ::-webkit-scrollbar, #websiteMade ::-webkit-scrollbar {
+    width: 15px;
+}
+
+#newPlay ::-webkit-scrollbar-track, #websiteMade ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #004d00;
+}
+
+#newPlay ::-webkit-scrollbar-thumb, #websiteMade ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #008000, #004d00);
+    border-radius: 5px;
+}
+
+#newPlay ::-webkit-scrollbar-thumb:hover, #websiteMade ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #004d00, #008000);
+}
+
+#newPlay p, #websiteMade p {
+    color: #ffffff;
+    font-size: 1.2em; 
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.scroll section {
+    margin: 10px;
+    flex: 0 0 auto;
+}
+
+.scroll section:hover {
+    transform: translateY(-5px);
+}
+
+.scroll div {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+    transition: background-color 0.3s ease;
+}
+
+.scroll div:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.more {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #008000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 30px 32px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.more:hover {
+    background-color: #004d00;
+    transform: scale(1.1);
+}
+
+/* Account sign up form (cost calculator) */
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #006600;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width on larger screens */
+}
+
+#signupForm label {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+#signupForm input {
+    color: aliceblue;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#fullName, #email, #password, #phone, #comments {
+    color: #ffffff;
+    background-color: #004d00;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%; 
+}
+
+#totalPrice {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#accountTypes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.account {
+    background-color: #004d00;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 100px;
+    transition: background-color .3s;
+}
+
+.account h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.account button {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.account button:hover {
+    background-color: #004d00;
+    transform: scale(1.1);
+}
+
+.account[data-price="0"] {
+    background-color: #006600;
+}
+
+.account[data-price="10"] {
+    background-color: #007700;
+}
+
+.account[data-price="20"] {
+    background-color: #008800;
+}
+
+#total {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#total h2 {
+    color: #ffffff;
+}
+
+#checkout, #submit {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+#checkout:hover, #submit:hover {
+    background-color: #ffffff;
+    color: #004d00;
+}
+
+/* Contact form */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #006600;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contactForm label {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+#contactForm input {
+    color: aliceblue;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#fullNameTwo, #emailTwo, #message {
+    color: #ffffff;
+    background-color: #004d00;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%; 
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 20px 0;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+    nav ul li a {
+        display: block; 
+        text-align: center; 
+        margin: 5px 0;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .scroll div {
+        width: 100%; 
+    }
+    .more {
+        width: 90%;
+        margin: 10px auto; 
+    }
+    #signupForm {
+        padding: 10px; 
+    }
+    .account {
+        width: 80%; 
+        margin: 10px auto; 
+    }
+    .account[data-price="20"] {
+        margin-right: 25px;
+    }
+    
+}
