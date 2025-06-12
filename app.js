@@ -1,1 +1,163 @@
-'use strict'; var _0x5b2ef8 = _0x1caa; (function (_0x475226, _0x24a26) { var _0x4c946a = _0x1caa, _0x442456 = _0x475226(); while (!![]) { try { var _0xc89100 = -parseInt(_0x4c946a(0x182)) / (-0x4c * 0x5b + 0x1 * -0xbb9 + 0x26be * 0x1) * (-parseInt(_0x4c946a(0x19d)) / (0x1 * -0x19d8 + -0x3 * 0xc74 + 0x57 * 0xba)) + -parseInt(_0x4c946a(0x1a4)) / (0x5 * -0xdb + -0x1 * -0x256e + 0x54 * -0x65) * (parseInt(_0x4c946a(0x1f6)) / (-0x1675 + -0x57a + 0x1bf3)) + parseInt(_0x4c946a(0x14e)) / (0x3e0 + 0x1050 + -0x142b) + -parseInt(_0x4c946a(0x1a2)) / (-0xfb7 + -0x240 * -0x4 + 0x6bd) + parseInt(_0x4c946a(0x1c5)) / (-0x29a + -0x97 * 0x6 + 0x62b) * (-parseInt(_0x4c946a(0x208)) / (0x34 * 0x1 + -0xe * 0x2a5 + 0x24da)) + -parseInt(_0x4c946a(0x178)) / (-0x16d9 + -0x14b7 + 0x2b99) * (-parseInt(_0x4c946a(0x1c3)) / (-0xdd3 + -0x460 + 0x29b * 0x7)) + parseInt(_0x4c946a(0x14a)) / (-0x507 + 0x1 * 0x172 + -0x3a0 * -0x1); if (_0xc89100 === _0x24a26) break; else _0x442456['push'](_0x442456['shift']()); } catch (_0x3f5565) { _0x442456['push'](_0x442456['shift']()); } } }(_0x19d1, -0x4 * -0x152f3 + 0x33 * 0x5af1 + -0xae0d9)); var accounts = document[_0x5b2ef8(0x168) + _0x5b2ef8(0x1c2)](_0x5b2ef8(0x1f0)), totalElement = document[_0x5b2ef8(0x168) + _0x5b2ef8(0x1c6)](_0x5b2ef8(0x188) + 'e'), checkoutButton = document[_0x5b2ef8(0x168) + _0x5b2ef8(0x1c6)](_0x5b2ef8(0x14d)), selectedAccount = null, nameRegex = /^[a-zA-Z ]{2,30}$/, emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/, passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/; function _0x19d1() { var _0x483463 = ['XJElL', 'thankYouMe', 'aracters\x20l', 'NUKpF', '555PusJxI', 'none', '|14|7|9|1|', 'g\x20your\x20ord', 'onscroll', 'act\x20prefer', '#totalPric', 'ence.', '\x20soon\x20:3', 'is\x20require', '\x20confirmin', 'ortly\x20at\x20', 'ViloS', 'KHcJy', 'ference', 'test', 'bLise', '#themeSwit', 'Please\x20fil', '.\x0aYou\x20will', 'respond.', 'lGRfD', 'd\x20so\x20we\x20kn', 'Thank\x20you\x20', 'MtXJy', 'mIniI', '#password', '3446qvliEf', 'umber,\x20one', '|13|5|8|0|', 'display', '1|10|3|8|2', '8837352EBXQOC', 'block', '9RwxdCb', 'contactEma', 'rder,\x20', 'addEventLi', 'zCXgS', 'contactFor', 'email', 'ssage', 'XSsrK', '\x20account\x20t', 'BZTsU', 'stener', 'Jcyob', 'ust\x20be\x20at\x20', 'er.', 'XdTgU', 'phoneError', 'HsWkJ', '2|3|1|6|7|', '#email', 'RQalV', 'VydNG', 'KnztJ', 'preventDef', 'forEach', '#fullName', 'split', 'ZGzxF', 'textConten', 'er\x20a\x20valid', 'torAll', '10Moydzo', 'SatBg', '238tIisLy', 'tor', 'FEgpE', 'vMaSC', 'ault', 'emailTwo', 're\x20require', '15|19|12|4', 'kRosu', 'lygLh', 'al\x20is\x20$', 'ror', 'er.\x20:3', 'qbUyz', 'l\x20out\x20all\x20', 'Comments\x20a', '\x20full\x20name', 'documentEl', 'ById', 'change', 'fields\x20and', 'target', 'IwUBF', 'ferenceErr', 'u\x20via\x20', 'ow\x20how\x20to\x20', 'getElement', 'body', 'njIgn', 'PXJkg', 'YJwYx', 'vJLOT', 'leULP', 'remove', 'style', '!\x20Your\x20tot', 'least\x208\x20ch', 'phone', 'comments', '0|4|5', 'etter.', 'rJwyO', 'for\x20your\x20s', '.account', 'jYKkv', 'ement', 'light', 'dataset', 'emailError', '1215068YgPsuV', 'CcwvO', 'ymuQg', '\x2010\x20digit\x20', 'submit', 'button', 'nxEQt', 'value', 'pxbhn', 'ubmission,', 'tWEGT', 'price', 'ress.', 'XNjZM', 'bMmQJ', 'QtxoW', 'OGVcs', 'clude\x20at\x20l', '339952dgnzID', 'WhWAv', 'Cipcg', 'classList', 'Please\x20ent', '\x20select\x20an', 'zWUbC', 'kUQnY', 'ect\x20a\x20cont', 'dark', '\x20lowercase', 'back-to-to', '\x20and\x20one\x20u', '9136886gWcSYm', 'mdfBk', 'phone\x20numb', '#checkout', '8171235BaMJzB', '18|20|2|16', 'data-theme', '0|7|5|9|6|', 'ppercase\x20l', '!\x20We\x20will\x20', 'GXDkB', 'click', '\x20checking\x20', 'plcbw', 'ype\x20before', 'GItRt', 'contactPre', 'eZxjr', '\x20email\x20add', 'setAttribu', '|3|10|17|6', 'Please\x20sel', 'checked', 'contact\x20yo', 'Full\x20name\x20', 'IdZyC', 'east\x20one\x20n', 'xAqsV', 'Password\x20m', 'fullNameTw', 'querySelec', 'commentsEr', 'ong\x20and\x20in', 'out\x20^_^.', 'MDvZv', 'ANlGG', '\x20receive\x20a', 'selected', 'tFiwa', 'scrollTop', 'for\x20your\x20o', 'bFNhH', 'add', 'contactPho', 'n\x20email\x20sh', 'cmQMq', '11064105mOFJSx', 'fullName', 'VXQwk', 'fullNameEr', 'xgOAv', 'YDPov']; _0x19d1 = function () { return _0x483463; }; return _0x19d1(); } function _0x1caa(_0x36cf48, _0x5433bb) { var _0x72cf39 = _0x19d1(); return _0x1caa = function (_0x3c3923, _0x5c15e5) { _0x3c3923 = _0x3c3923 - (0x1a0e + 0x197a + -0x323e); var _0x243f32 = _0x72cf39[_0x3c3923]; return _0x243f32; }, _0x1caa(_0x36cf48, _0x5433bb); } accounts[_0x5b2ef8(0x1bc)](function (_0x2740b0) { var _0x5b34d2 = _0x5b2ef8, _0x1775b6 = { 'jYKkv': _0x5b34d2(0x16f), 'HsWkJ': function (_0x3e7ca7) { return _0x3e7ca7(); }, 'QtxoW': _0x5b34d2(0x1fb), 'SatBg': _0x5b34d2(0x155) }; _0x2740b0[_0x5b34d2(0x168) + _0x5b34d2(0x1c6)](_0x1775b6[_0x5b34d2(0x205)])[_0x5b34d2(0x1a7) + _0x5b34d2(0x1af)](_0x1775b6[_0x5b34d2(0x1c4)], function () { var _0x149149 = _0x5b34d2; selectedAccount && selectedAccount[_0x149149(0x20b)][_0x149149(0x1e6)](_0x1775b6[_0x149149(0x1f1)]), _0x2740b0[_0x149149(0x20b)][_0x149149(0x174)](_0x1775b6[_0x149149(0x1f1)]), selectedAccount = _0x2740b0, _0x1775b6[_0x149149(0x1b5)](updateTotal); }); }), checkoutButton[_0x5b2ef8(0x1a7) + _0x5b2ef8(0x1af)](_0x5b2ef8(0x155), function () { var _0x296cfc = _0x5b2ef8, _0x4794ba = { 'plcbw': _0x296cfc(0x151) + _0x296cfc(0x1a1) + '|4', 'qbUyz': _0x296cfc(0x1bd), 'RQalV': _0x296cfc(0x16f), 'ANlGG': function (_0x3cbbcc) { return _0x3cbbcc(); }, 'XJElL': _0x296cfc(0x19c), 'VydNG': function (_0x4f9868, _0x15390e) { return _0x4f9868(_0x15390e); }, 'PXJkg': function (_0xd23346, _0x46062f) { return _0xd23346 + _0x46062f; }, 'YDPov': function (_0x51beb2, _0x2c6efe) { return _0x51beb2 + _0x2c6efe; }, 'BZTsU': function (_0x4609ab, _0x3df860) { return _0x4609ab + _0x3df860; }, 'MDvZv': function (_0x4a59d1, _0x2b97d0) { return _0x4a59d1 + _0x2b97d0; }, 'bLise': _0x296cfc(0x199) + _0x296cfc(0x172) + _0x296cfc(0x1a6), 'eZxjr': _0x296cfc(0x1e8) + _0x296cfc(0x1cf), 'Jcyob': _0x296cfc(0x195) + _0x296cfc(0x16e) + _0x296cfc(0x176) + _0x296cfc(0x18d), 'YJwYx': _0x296cfc(0x18c) + _0x296cfc(0x185) + _0x296cfc(0x1d1), 'kUQnY': _0x296cfc(0x1b7), 'KHcJy': function (_0x4ffff5, _0x4c54c0) { return _0x4ffff5(_0x4c54c0); }, 'pxbhn': _0x296cfc(0x194) + _0x296cfc(0x1d3) + _0x296cfc(0x1d9) + _0x296cfc(0x20d) + _0x296cfc(0x1ad) + _0x296cfc(0x158) + _0x296cfc(0x156) + _0x296cfc(0x16b), 'xAqsV': function (_0x5d66fd, _0x5483e2) { return _0x5d66fd(_0x5483e2); }, 'nxEQt': _0x296cfc(0x20c) + _0x296cfc(0x1c1) + _0x296cfc(0x1d5) + '.', 'KnztJ': function (_0x3c74f8, _0x419b8e) { return _0x3c74f8(_0x419b8e); }, 'MtXJy': _0x296cfc(0x20c) + _0x296cfc(0x1c1) + _0x296cfc(0x15c) + _0x296cfc(0x202), 'VXQwk': function (_0x39a109, _0x4fd0b2) { return _0x39a109(_0x4fd0b2); }, 'tWEGT': _0x296cfc(0x166) + _0x296cfc(0x1b1) + _0x296cfc(0x1e9) + _0x296cfc(0x180) + _0x296cfc(0x16a) + _0x296cfc(0x207) + _0x296cfc(0x164) + _0x296cfc(0x19e) + _0x296cfc(0x212) + _0x296cfc(0x214) + _0x296cfc(0x152) + _0x296cfc(0x1ed) }, _0x12e472 = _0x4794ba[_0x296cfc(0x157)][_0x296cfc(0x1be)]('|'), _0x3558b9 = -0x5e1 + 0x1dfd + -0x181c; while (!![]) { switch (_0x12e472[_0x3558b9++]) { case '0': var _0x5dc028 = document[_0x296cfc(0x168) + _0x296cfc(0x1c6)](_0x4794ba[_0x296cfc(0x1d2)]); continue; case '1': selectedAccount[_0x296cfc(0x20b)][_0x296cfc(0x1e6)](_0x4794ba[_0x296cfc(0x1b8)]); continue; case '2': _0xf3e7f[_0x296cfc(0x1fd)] = ''; continue; case '3': _0x4794ba[_0x296cfc(0x16d)](updateTotal); continue; case '4': _0x57f940[_0x296cfc(0x1fd)] = ''; continue; case '5': var _0x57f940 = document[_0x296cfc(0x168) + _0x296cfc(0x1c6)](_0x4794ba[_0x296cfc(0x17e)]); continue; case '6': _0x4794ba[_0x296cfc(0x1b9)](alert, _0x4794ba[_0x296cfc(0x1e2)](_0x4794ba[_0x296cfc(0x1e2)](_0x4794ba[_0x296cfc(0x17d)](_0x4794ba[_0x296cfc(0x1e2)](_0x4794ba[_0x296cfc(0x1ae)](_0x4794ba[_0x296cfc(0x16c)](_0x4794ba[_0x296cfc(0x192)], _0x5dc028[_0x296cfc(0x1fd)]), _0x4794ba[_0x296cfc(0x15b)]), totalElement[_0x296cfc(0x1c0) + 't']), _0x4794ba[_0x296cfc(0x1b0)]), _0xf3e7f[_0x296cfc(0x1fd)]), _0x4794ba[_0x296cfc(0x1e3)])); continue; case '7': var _0xf3e7f = document[_0x296cfc(0x168) + _0x296cfc(0x1c6)](_0x4794ba[_0x296cfc(0x20f)]); continue; case '8': _0x5dc028[_0x296cfc(0x1fd)] = ''; continue; case '9': if (!selectedAccount || !_0x5dc028[_0x296cfc(0x1fd)] || !_0xf3e7f[_0x296cfc(0x1fd)] || !_0x57f940[_0x296cfc(0x1fd)]) { _0x4794ba[_0x296cfc(0x18f)](alert, _0x4794ba[_0x296cfc(0x1fe)]); return; } else { if (!nameRegex[_0x296cfc(0x191)](_0x5dc028[_0x296cfc(0x1fd)])) { _0x4794ba[_0x296cfc(0x165)](alert, _0x4794ba[_0x296cfc(0x1fc)]); return; } else { if (!emailRegex[_0x296cfc(0x191)](_0xf3e7f[_0x296cfc(0x1fd)])) { _0x4794ba[_0x296cfc(0x1ba)](alert, _0x4794ba[_0x296cfc(0x19a)]); return; } else { if (!passwordRegex[_0x296cfc(0x191)](_0x57f940[_0x296cfc(0x1fd)])) { _0x4794ba[_0x296cfc(0x17a)](alert, _0x4794ba[_0x296cfc(0x200)]); return; } } } } continue; case '10': selectedAccount = null; continue; }break; } }); function updateTotal() { var _0x5d268 = _0x5b2ef8, _0x5c21d4 = selectedAccount ? selectedAccount[_0x5d268(0x1f4)][_0x5d268(0x201)] : -0x1795 + 0x130e + -0x487 * -0x1; totalElement[_0x5d268(0x1c0) + 't'] = _0x5c21d4; } window[_0x5b2ef8(0x186)] = function () { var _0x67c848 = _0x5b2ef8, _0x56bd1f = { 'vJLOT': function (_0x1a3099) { return _0x1a3099(); } }; _0x56bd1f[_0x67c848(0x1e4)](scrollFunction); }; function scrollFunction() { var _0x5905d7 = _0x5b2ef8, _0x3e84ca = { 'leULP': function (_0x5b9275, _0x4f8d87) { return _0x5b9275 > _0x4f8d87; }, 'zWUbC': _0x5905d7(0x213) + 'p', 'Cipcg': _0x5905d7(0x1a3), 'njIgn': _0x5905d7(0x183) }; _0x3e84ca[_0x5905d7(0x1e5)](document[_0x5905d7(0x1e0)][_0x5905d7(0x171)], -0x1955 * -0x1 + -0x2139 + 0x1 * 0x7f8) || _0x3e84ca[_0x5905d7(0x1e5)](document[_0x5905d7(0x1d6) + _0x5905d7(0x1f2)][_0x5905d7(0x171)], -0x424 + 0x4 * 0x29 + -0x4 * -0xe5) ? document[_0x5905d7(0x1df) + _0x5905d7(0x1d7)](_0x3e84ca[_0x5905d7(0x20e)])[_0x5905d7(0x1e7)][_0x5905d7(0x1a0)] = _0x3e84ca[_0x5905d7(0x20a)] : document[_0x5905d7(0x1df) + _0x5905d7(0x1d7)](_0x3e84ca[_0x5905d7(0x20e)])[_0x5905d7(0x1e7)][_0x5905d7(0x1a0)] = _0x3e84ca[_0x5905d7(0x1e1)]; } var themeSwitch = document[_0x5b2ef8(0x168) + _0x5b2ef8(0x1c6)](_0x5b2ef8(0x193) + 'ch'); themeSwitch[_0x5b2ef8(0x1a7) + _0x5b2ef8(0x1af)](_0x5b2ef8(0x1d8), function (_0x29ba15) { var _0x38a677 = _0x5b2ef8, _0x30743e = { 'cmQMq': _0x38a677(0x150), 'tFiwa': _0x38a677(0x211), 'GItRt': _0x38a677(0x1f3) }; _0x29ba15[_0x38a677(0x1da)][_0x38a677(0x160)] ? document[_0x38a677(0x1d6) + _0x38a677(0x1f2)][_0x38a677(0x15d) + 'te'](_0x30743e[_0x38a677(0x177)], _0x30743e[_0x38a677(0x170)]) : document[_0x38a677(0x1d6) + _0x38a677(0x1f2)][_0x38a677(0x15d) + 'te'](_0x30743e[_0x38a677(0x177)], _0x30743e[_0x38a677(0x159)]); }), document[_0x5b2ef8(0x1df) + _0x5b2ef8(0x1d7)](_0x5b2ef8(0x1a9) + 'm')[_0x5b2ef8(0x1a7) + _0x5b2ef8(0x1af)](_0x5b2ef8(0x1fa), function (_0x202f34) { var _0x32aade = _0x5b2ef8, _0x1e792b = { 'XdTgU': _0x32aade(0x1cc) + _0x32aade(0x15e) + _0x32aade(0x184) + _0x32aade(0x14f) + _0x32aade(0x19f) + '11', 'IwUBF': _0x32aade(0x15f) + _0x32aade(0x210) + _0x32aade(0x187) + _0x32aade(0x189), 'ZGzxF': _0x32aade(0x15a) + _0x32aade(0x1dc) + 'or', 'bFNhH': _0x32aade(0x1eb), 'rJwyO': _0x32aade(0x1ca), 'ViloS': _0x32aade(0x20c) + _0x32aade(0x1c1) + _0x32aade(0x15c) + _0x32aade(0x202), 'WhWAv': _0x32aade(0x17b) + _0x32aade(0x1d0), 'lGRfD': _0x32aade(0x1f5), 'CcwvO': _0x32aade(0x1d4) + _0x32aade(0x1cb) + _0x32aade(0x198) + _0x32aade(0x1de) + _0x32aade(0x196), 'OGVcs': _0x32aade(0x169) + _0x32aade(0x1d0), 'XSsrK': _0x32aade(0x175) + 'ne', 'XNjZM': _0x32aade(0x1b6) + _0x32aade(0x1ec), 'NUKpF': _0x32aade(0x1ea), 'xgOAv': _0x32aade(0x1aa), 'IdZyC': _0x32aade(0x17f) + _0x32aade(0x1ab), 'FEgpE': function (_0x18b112, _0x1130de) { return _0x18b112 + _0x1130de; }, 'mIniI': function (_0x554476, _0x39b7e9) { return _0x554476 + _0x39b7e9; }, 'bMmQJ': _0x32aade(0x199) + _0x32aade(0x1ef) + _0x32aade(0x1ff) + '\x20', 'GXDkB': _0x32aade(0x153) + _0x32aade(0x161) + _0x32aade(0x1dd), 'lygLh': _0x32aade(0x18a), 'mdfBk': _0x32aade(0x20c) + _0x32aade(0x1c1) + _0x32aade(0x1f9) + _0x32aade(0x14c) + _0x32aade(0x1b2), 'vMaSC': _0x32aade(0x1b4), 'kRosu': _0x32aade(0x162) + _0x32aade(0x18b) + 'd.', 'ymuQg': _0x32aade(0x1a5) + 'il', 'zCXgS': _0x32aade(0x167) + 'o' }, _0x10b7f5 = _0x1e792b[_0x32aade(0x1b3)][_0x32aade(0x1be)]('|'), _0x344bd8 = -0x152d + -0x2e * 0x9b + 0x475 * 0xb; while (!![]) { switch (_0x10b7f5[_0x344bd8++]) { case '0': !_0x12568c[_0x32aade(0x160)] && !_0x2d1c52[_0x32aade(0x160)] ? (_0x5c9a6c[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x1db)], _0xc38281 = !![]) : _0x5c9a6c[_0x32aade(0x1c0) + 't'] = ''; continue; case '1': var _0x5c9a6c = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1bf)]); continue; case '2': var _0xc38281 = ![]; continue; case '3': var _0x28c9f8 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x173)]); continue; case '4': var _0x1f365b = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1ee)]); continue; case '5': _0x2d1c52[_0x32aade(0x160)] && !_0x25c347[_0x32aade(0x191)](_0x1f365b[_0x32aade(0x1fd)]) ? (_0x4f2018[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x18e)], _0xc38281 = !![]) : _0x4f2018[_0x32aade(0x1c0) + 't'] = ''; continue; case '6': var _0x424414 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x209)]); continue; case '7': var _0x4f2018 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x197)]); continue; case '8': !_0x28c9f8[_0x32aade(0x1fd)] ? (_0x4153af[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x1f7)], _0xc38281 = !![]) : _0x4153af[_0x32aade(0x1c0) + 't'] = ''; continue; case '9': var _0x4153af = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x206)]); continue; case '10': var _0x12568c = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1ac)]); continue; case '11': if (!_0xc38281) { var _0x28b89f = _0x1e792b[_0x32aade(0x203)][_0x32aade(0x1be)]('|'), _0x2e0766 = 0x11e7 * -0x1 + -0x1a49 + 0x2c30; while (!![]) { switch (_0x28b89f[_0x2e0766++]) { case '0': _0x28c9f8[_0x32aade(0x1fd)] = ''; continue; case '1': _0x3ad124[_0x32aade(0x1fd)] = ''; continue; case '2': var _0x3a6aa2 = { 'fullName': _0x3ad124[_0x32aade(0x1fd)], 'phone': _0x2d49b3[_0x32aade(0x1fd)], 'email': _0x1f365b[_0x32aade(0x1fd)], 'comments': _0x28c9f8[_0x32aade(0x1fd)], 'contactPreference': _0x12568c[_0x32aade(0x160)] ? _0x1e792b[_0x32aade(0x181)] : _0x1e792b[_0x32aade(0x17c)] }; continue; case '3': document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x163)])[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x1c7)](_0x1e792b[_0x32aade(0x1c7)](_0x1e792b[_0x32aade(0x1c7)](_0x1e792b[_0x32aade(0x19b)](_0x1e792b[_0x32aade(0x204)], _0x3a6aa2[_0x32aade(0x179)]), _0x1e792b[_0x32aade(0x154)]), _0x3a6aa2[_0x32aade(0x15a) + _0x32aade(0x190)]), _0x1e792b[_0x32aade(0x1ce)]); continue; case '4': _0x12568c[_0x32aade(0x160)] = ![]; continue; case '5': _0x2d1c52[_0x32aade(0x160)] = ![]; continue; case '6': _0x2d49b3[_0x32aade(0x1fd)] = ''; continue; case '7': _0x1f365b[_0x32aade(0x1fd)] = ''; continue; }break; } } continue; case '12': var _0x2d49b3 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x181)]); continue; case '13': _0x12568c[_0x32aade(0x160)] && !_0x10f707[_0x32aade(0x191)](_0x2d49b3[_0x32aade(0x1fd)]) ? (_0x3152c8[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x14b)], _0xc38281 = !![]) : _0x3152c8[_0x32aade(0x1c0) + 't'] = ''; continue; case '14': var _0x3152c8 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1c8)]); continue; case '15': _0x202f34[_0x32aade(0x1bb) + _0x32aade(0x1c9)](); continue; case '16': !_0x3ad124[_0x32aade(0x1fd)] ? (_0x424414[_0x32aade(0x1c0) + 't'] = _0x1e792b[_0x32aade(0x1cd)], _0xc38281 = !![]) : _0x424414[_0x32aade(0x1c0) + 't'] = ''; continue; case '17': var _0x2d1c52 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1f8)]); continue; case '18': var _0x10f707 = /^[0-9]{10}$/; continue; case '19': var _0x3ad124 = document[_0x32aade(0x1df) + _0x32aade(0x1d7)](_0x1e792b[_0x32aade(0x1a8)]); continue; case '20': var _0x25c347 = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; continue; }break; } });
+// Use strict globally
+'use strict';
+
+// Account sign up validation (cost calculator)
+var accounts = document.querySelectorAll('.account');
+var totalElement = document.querySelector('#totalPrice');
+var checkoutButton = document.querySelector('#checkout');
+var selectedAccount = null;
+
+// Regex patterns for validation
+var nameRegex = /^[a-zA-Z ]{2,30}$/; // Full name regex
+var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Email regex
+var passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/; // Password regex
+
+accounts.forEach(function (account) {
+    account.querySelector('button').addEventListener('click', function () {
+        if (selectedAccount) {
+            selectedAccount.classList.remove('selected');
+        }
+        account.classList.add('selected');
+        selectedAccount = account;
+        updateTotal();
+    });
+});
+
+checkoutButton.addEventListener('click', function () {
+    var fullName = document.querySelector('#fullName');
+    var email = document.querySelector('#email');
+    var password = document.querySelector('#password');
+
+    if (!selectedAccount || !fullName.value || !email.value || !password.value) {
+        alert('Please fill out all fields and select an account type before checking out ^_^.');
+        return;
+    } else if (!nameRegex.test(fullName.value)) {
+        alert('Please enter a valid full name.');
+        return;
+    } else if (!emailRegex.test(email.value)) {
+        alert('Please enter a valid email address.');
+        return;
+    } else if (!passwordRegex.test(password.value)) {
+        alert('Password must be at least 8 characters long and include at least one number, one lowercase and one uppercase letter.');
+        return;
+    }
+
+    alert('Thank you for your order, ' + fullName.value + '! Your total is $' + totalElement.textContent + '.\nYou will receive an email shortly at ' + email.value + ' confirming your order. :3');
+    selectedAccount.classList.remove('selected');
+    selectedAccount = null;
+    updateTotal();
+
+    // Clear input
+    fullName.value = '';
+    email.value = '';
+    password.value = '';
+});
+
+function updateTotal() {
+    var price = selectedAccount ? selectedAccount.dataset.price : 0;
+    totalElement.textContent = price;
+}
+
+// Back to the top
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// Light dark mode switch
+var themeSwitch = document.querySelector('#themeSwitch');
+
+themeSwitch.addEventListener('change', function (event) {
+    if (event.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+});
+
+// Contact form validation
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var fullName = document.getElementById('fullNameTwo');
+    var phone = document.getElementById('phone');
+    var email = document.getElementById('emailTwo');
+    var comments = document.getElementById('comments');
+    var contactPhone = document.getElementById('contactPhone');
+    var contactEmail = document.getElementById('contactEmail');
+
+    var fullNameError = document.getElementById('fullNameError');
+    var phoneError = document.getElementById('phoneError');
+    var emailError = document.getElementById('emailError');
+    var commentsError = document.getElementById('commentsError');
+    var contactPreferenceError = document.getElementById('contactPreferenceError');
+
+    var phoneRegex = /^[0-9]{10}$/; // 10 digit phone number
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // email
+
+    var errors = false;
+
+    // full name
+    if (!fullName.value) {
+        fullNameError.textContent = 'Full name is required.';
+        errors = true;
+    } else {
+        fullNameError.textContent = '';
+    }
+
+    // phone
+    if (contactPhone.checked && !phoneRegex.test(phone.value)) {
+        phoneError.textContent = 'Please enter a valid 10 digit phone number.';
+        errors = true;
+    } else {
+        phoneError.textContent = '';
+    }
+
+    // email
+    if (contactEmail.checked && !emailRegex.test(email.value)) {
+        emailError.textContent = 'Please enter a valid email address.';
+        errors = true;
+    } else {
+        emailError.textContent = '';
+    }
+
+    // comments
+    if (!comments.value) {
+        commentsError.textContent = 'Comments are required so we know how to respond.';
+        errors = true;
+    } else {
+        commentsError.textContent = '';
+    }
+    // contact preference
+    if (!contactPhone.checked && !contactEmail.checked) {
+        contactPreferenceError.textContent = 'Please select a contact preference.';
+        errors = true;
+    } else {
+        contactPreferenceError.textContent = '';
+    }
+
+    if (!errors) {
+        var customer = {
+            fullName: fullName.value,
+            phone: phone.value,
+            email: email.value,
+            comments: comments.value,
+            contactPreference: contactPhone.checked ? 'phone' : 'email'
+        };
+
+        document.getElementById('thankYouMessage').textContent = 'Thank you for your submission, ' + customer.fullName + '! We will contact you via ' + customer.contactPreference + ' soon :3';
+
+        // Clear input
+        fullName.value = '';
+        phone.value = '';
+        email.value = '';
+        comments.value = '';
+        contactPhone.checked = false;
+        contactEmail.checked = false;
+    }
+});
